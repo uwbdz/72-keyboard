@@ -1,16 +1,16 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
-if SHIELD_REDOX_LEFT
+if SHIELD_Glove80_lh
 
 config ZMK_KEYBOARD_NAME
-    default "Redox"
+    default "Glove80"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_REDOX_LEFT || SHIELD_REDOX_RIGHT
+if SHIELD_Glove80_lh || SHIELD_Glove80_rh
 
 config ZMK_SPLIT
     default y
