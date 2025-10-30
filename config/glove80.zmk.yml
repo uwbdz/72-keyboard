@@ -1,0 +1,15 @@
+file_format: "1"
+id: glove80
+name: Glove80
+type: shield
+url: https://www.moergo.com/
+requires: [nice_nano_v2]
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+siblings:
+  - glove_lh
+  - glove_rh
