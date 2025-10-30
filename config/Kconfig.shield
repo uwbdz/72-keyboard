@@ -1,0 +1,7 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+config SHIELD_Glove_lh
+    def_bool $(shields_list_contains,glove80_lh)
+
+config SHIELD_Glove_rh
+    def_bool $(shields_list_contains,glove80_rh)
