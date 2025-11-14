@@ -1,4 +1,4 @@
-# zmk-config-redox
+# 72-keyboard
 
 
 <img src="keymap-drawer/redox.svg" >
