@@ -85,11 +85,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-&dongle_bootload_macro  &trans     &trans     &trans          &trans    &trans  &trans                  &trans  &trans                        &trans          &trans          &trans           &trans             &trans
-&trans                  &kp EXCL   &kp AT     &kp HASH        &kp DLLR  &trans  &trans                  &trans  &kp C_BRIGHTNESS_INC          &kp HOME        &kp UP_ARROW    &kp END          &kp C_VOLUME_UP    &trans
-&trans                  &kp PRCNT  &kp CARET  &kp AMPS        &kp STAR  &trans  &trans                  &trans  &kp C_BRIGHTNESS_DEC          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &trans
-&trans                  &kp TILDE  &kp EQUAL  &kp UNDERSCORE  &trans    &trans  &trans  &trans  &trans  &trans  &trans                        &kp PAGE_UP     &trans          &kp PAGE_DOWN    &kp C_MUTE         &trans
-&trans                  &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans                        &trans                  &trans          &trans           &trans             &trans
+&dongle_bootload_macro  &trans     &trans     &trans     &trans     &trans  &trans                  &trans  &trans                        &trans          &trans          &trans           &trans             &trans
+&trans                  &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &trans  &trans                  &trans  &kp C_BRIGHTNESS_INC          &kp HOME        &kp UP_ARROW    &kp END          &kp C_VOLUME_UP    &trans
+&trans                  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &trans  &trans                  &trans  &kp C_BRIGHTNESS_DEC          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &trans
+&trans                  &kp TILDE  &kp UNDER  &kp MINUS  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans                        &kp PAGE_UP     &trans          &kp PAGE_DOWN    &kp C_MUTE         &trans
+&trans                  &trans     &trans     &trans                &trans  &trans  &trans  &trans  &trans                        &trans                  &trans          &trans           &trans             &trans
             >;
 
             label = "Navi";
